@@ -162,6 +162,38 @@ h6 {
   margin-bottom: 15px;
 }
 
+.download-app {
+  padding: 60px 0;
+  background-color: var(--background-color); /* Fondo oscuro */
+}
+
+.download-app h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.download-app p {
+  font-size: 1.0rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.download-app .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--accent-color); /* Color de fondo del botón */
+  color: var(--contrast-color); /* Color del texto del botón */
+}
+
+.download-app .btn i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
